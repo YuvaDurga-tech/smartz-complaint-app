@@ -1,31 +1,32 @@
-# Smartz Complaint App 🚀
+# Complaint Registration & Management System
 
-This is a full-stack Complaint Registration and Management System built as part of my internship at Smartz Interns. It allows users to register complaints, track their status, and enables admins to assign and manage complaints efficiently.
+This is a full-stack web application developed as part of my internship project. The system helps users register complaints, allows agents to manage complaints, and provides admin with full control of the platform.
 
-## 🌟 Features
-- User Signup/Login (Ordinary & Agent roles)
-- Submit complaints (name, address, pincode, etc.)
-- Track complaint status: Pending, In-Progress, Resolved
-- Admin dashboard to view, assign, and delete complaints
-- Agents can update complaint status
-- Real-time messaging system
-- User management by admin
+## 🔥 Features
+- User Signup and Login
+- Submit complaints with name, address, city, pincode, and description
+- Track complaint status (Pending, In-Progress, Resolved)
+- Admin assigns complaints to agents
+- Agents update status
+- Real-time messaging per complaint
+- Admin manages users
+- Complaint dashboard
 
-## 🛠️ Tech Stack
+## 💻 Tech Stack Used
 
-### 🧩 Frontend
+### 🚀 Frontend
 - React.js
-- HTML, CSS
+- HTML & CSS
 - JavaScript
-- Bootstrap
+- Bootstrap / Material UI
 
-### 🧩 Backend
+### 🛠️ Backend
 - Node.js
 - Express.js
-- MongoDB with Mongoose
-- JWT Authentication
+- MongoDB
+- Mongoose
+- JWT
 
-## 📁 Folder Structure
 ## 📁 Folder Structure
 ```
 smartz-complaint-app/
@@ -45,4 +46,49 @@ smartz-complaint-app/
 │
 └── README.md
 ```
+
+## ⚙️ Setup Instructions
+
+### 🔧 Prerequisites:
+- Node.js and npm installed
+- MongoDB database (you can use MongoDB Atlas)
+
+### 🚀 Steps to Run the Project:
+
+#### 1. Clone the repository
+```bash
+git clone https://github.com/YuvaDurga-tech/smartz-complaint-app.git
+cd smartz-complaint-app
+```
+
+#### 2. Setup Backend
+```bash
+cd backend
+npm install
+```
+
+✅ Create a `.env` file in `/backend` folder with:
+```env
+MONGO_URL=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
+
+Then run:
+```bash
+node index.js
+```
+
+#### 3. Setup Frontend
+```bash
+cd ../frontend
+npm install
+npm start
+```
+
+Frontend runs on: `http://localhost:3000`  
+Backend runs on: `http://localhost:8000`
+
+---
+
+
 
