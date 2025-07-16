@@ -88,6 +88,11 @@ npm start
 Frontend runs on: `http://localhost:3000`  
 Backend runs on: `http://localhost:8000`
 
+
+# 🎬 Project Demo
+Watch the full demo video here:  
+👉 [Click to view on Google Drive](https://drive.google.com/file/d/1Lp9wGMNe4QFYirs5CWIHOLWF0CwXee0d/view?usp=sharing)
+
 ---
 
 
