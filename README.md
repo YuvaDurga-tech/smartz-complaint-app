@@ -76,14 +76,13 @@ smartz-complaint-app/
 
 ---
 
-### 📦 
-1. Clone the Project
+### 📦 1. Clone the Project
 
 ```bash
 git clone https://github.com/YuvaDurga-tech/smartz-complaint-app.git
 cd smartz-complaint-app
 
- 2. Setup Backend
+ ⚙️ 2. Setup Backend
 bash
 Copy code
 cd "Project files/Backend"
@@ -111,8 +110,7 @@ Runs at: http://localhost:3000
 
 
 🎥 Project Demo
-📽️ Click here to watch the project demo
-https://drive.google.com/file/d/1zrSw_kLbT1QkPj5bYYnEgrVTWlfYf_8r/view?usp=sharing
+📽️ Click here to watch the project demo on Google Drive
 
 Also available in Video doc/video_link.txt
 
